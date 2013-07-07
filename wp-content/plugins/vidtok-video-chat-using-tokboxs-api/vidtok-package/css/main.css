@@ -1,0 +1,229 @@
+/*
+	Vidtok Video Chat Plugin created by Blacc Spot Media, Inc.
+	Copyright 2012 All Rights Reserved.
+	Author: the Blacc Spot Media team
+	www.blaccspot.com	
+
+
+	CSS Style Infomation
+	Colors
+		Color			: #HEX;
+		CYAN			: #098CC2;
+
+/*---------------------------*/
+
+/*
+	normalize.css 
+	HTML5 Display Definitions
+	http://github.com/necolas/normalize.css
+/*---------------------------*/
+
+	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+	audio,canvas,video{display:inline-block}
+	audio:not([controls]){display:none;height:0}
+	[hidden]{display:none}
+	html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+	a:focus{outline:thin dotted}
+	a:active,a:hover{outline:0}
+	h1{font-size:2em}
+	abbr[title]{border-bottom:1px dotted}
+	b,strong{font-weight:700}
+	dfn{font-style:italic}
+	mark{background:#ff0;color:#000}
+	code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}
+	pre{white-space:pre-wrap;word-wrap:break-word}
+	q{quotes:\201C \201D \2018 \2019}
+	small{font-size:80%}
+	sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+	sup{top:-.5em}
+	sub{bottom:-.25em}
+	img{border:0}
+	svg:not(:root){overflow:hidden}
+	fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+	button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+	button,input{line-height:normal}
+	button,html input[type=button],/* 1 */
+	input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+	button[disabled],input[disabled]{cursor:default}
+	input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+	input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+	input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+	textarea{overflow:auto;vertical-align:top}
+	table{border-collapse:collapse;border-spacing:0}
+	body,figure{margin:0}
+	legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+	
+	
+
+/*  HTML CONSTANTS
+/*---------------------------*/
+	
+	body { background-image:url(../images/bg.png); background-repeat:repeat; font-size:14px; font-family:Tahoma, Geneva, sans-serif; overflow:hidden; }
+
+
+
+/*  HEADER
+/*---------------------------*/
+
+	.vidtok-header { width:100%; background-color:#FFF; height:50px; border-bottom:1px #DDD solid; }
+	
+	.vidtok-logo { float:left; height:40px; margin-left:15px; }
+		.vidtok-logo img { height:40px; width:100px; }
+
+
+
+/*  FOOTER
+/*---------------------------*/
+	
+	.vidtok-footer { position:absolute; bottom:-8px; right:5px; }
+		.vidtok-footer a {  color:#098CC2; text-decoration:none; }
+		.vidtok-footer p { font-size:12px;text-transform:uppercase; }
+
+
+
+/*  VIDTOK VIDEO
+/*---------------------------*/
+	
+	.vidtok-w { width:1000px; min-height:380px; margin:auto; margin-top:80px; z-index:5; }
+
+
+/* FORMS 
+/*---------------------------*/
+
+	form { width:100%; float:left; margin-bottom:20px; }
+	input:focus, textarea:focus, select:focus { border: 1px solid #DDD; background-color: #fff; color:#333; }
+	input.submit { cursor: pointer; border: 1px solid #222; background:#FFF; color:#fff;  }
+	input.submit:hover { background-color:#87B1DA; }
+	label{ float: left; height: 26px; line-height: 26px; margin-bottom:5px; margin-right:10px; margin-top:7px;text-transform:uppercase; color:#098CC2;} 
+	input, textarea,  select { margin: 0; padding: 4px; color: #666; background: #fff; border: 1px solid #ddd; margin: 5px 0; float:left; margin-right:10px; }
+
+
+/*  VIDTOK CONSTANTS
+/*---------------------------*/
+	
+	.vidtok-video-h { width:480px; height:360px; float:left; padding:4px; margin:5px; border:1px #DDD solid; background-color:#FFF; z-index:50; }
+
+ 
+/*  VIDTOK VIDEO REFRESH
+/*---------------------------*/
+	
+	.vidtok-group-refresh { position:absolute; }
+
+
+/*  VIDTOK SHARE
+/*---------------------------*/
+	
+	#vidtok-share-panel { }
+	
+	.vidtok-share-w { margin:5px; width:660px; padding-left:40px; height:50px; position:absolute; bottom:-12px; background-color:#F5F5F5; border:1px #DDD solid; margin-bottom:40px; left:-575px; }
+		.vidtok-share-w form { float:left; margin-top:6px; width:380px; }
+		.vidtok-share-w img { float:left; margin-top:8px; width:32px; height:32px; }
+	
+	.vidtok-share-divide { float:left; margin:10px; font-size:20px; color:#ddd; }
+
+	.vidtok-share-panel-handle { width:110px; height:30px; padding:10px; float:left; cursor:pointer;  }
+		.vidtok-share-panel-handle img { float:left; margin-top:2px; margin-left:10px; width:22px; height:22px; }
+		.vidtok-share-panel-handle p { float:left; margin:0; margin-top:5px; } 
+
+
+
+/*  LOADING
+/*---------------------------*/
+
+	.vidtok-publisher-loading {  }
+		.vidtok-publisher-loading img { margin:auto; display:block; margin-top:100px;  }
+		.vidtok-publisher-loading p { width:100%; text-align:center; text-transform:uppercase; }
+
+		
+				
+
+/*  BUTTON
+/*---------------------------*/
+	
+	.vidtok-button { background-color:#FFF; color:#098CC2; text-transform:uppercase; margin: 0; padding: 4px; border: 1px solid #DDD; margin: 5px 0; float:left; }
+
+
+
+/*  TOOL PANEL
+/*---------------------------*/
+	
+	#vidtok-tool-panel { width:900px; height:200px; position:absolute; bottom:30px; z-index:100; right:-780px; }
+	
+	.vidtok-tool-panel-w { width:900px; height:50px; background-color:#F5F5F5; border:1px #DDD solid; z-index:100; margin-top:150px; }
+
+	.vidtok-tool-panel-handle { width:100px; height:30px; padding:10px; float:left; cursor:pointer;  }
+		.vidtok-tool-panel-handle img { float:left; margin-top:2px; margin-right:5px; }
+		.vidtok-tool-panel-handle p { float:left; margin:0; margin-top:5px; }
+		
+	.vidtok-tool-panel-h { width:760px; float:left; }
+	
+	.vidtok-tool-panel-c { float:left; padding:10px; padding-left:10px; margin-right:10px; height:30px; cursor:pointer; }
+		.vidtok-tool-panel-c img { float:left; margin-top:2px; margin-right:5px; }	
+		.vidtok-tool-panel-c p { float:left; margin:0; margin-top:5px; }
+
+	.vidtok-tool-panel-dialog { width:400px; height:180px; background-color:#F5F5F5; border:1px #DDD solid; margin-top:-245px; margin-left:130px; display:none; float:left; }
+	
+	.vidtok-tool-panel-dialog-c { width:380px; height:160px; margin:10px; display:none;  float:left;}
+		.vidtok-tool-panel-dialog-c h2 { width:100%;  margin:0; font-weight:normal; }
+		.vidtok-tool-panel-dialog-c p { width:380px; margin:0; font-size:12px; }
+	
+	/*LOADING*/
+		.vidtok-dialog-loading { }
+			.vidtok-dialog-loading img { display:block; margin:auto; }
+			.vidtok-dialog-loading p { width:100%; text-align:center; margin:0; text-transform:uppercase; font-size:13px;  }
+	
+	/*NETWORK*/
+		.vidtok-show-network { display:none; }
+
+	/*SETTINGS*/
+		.vidtok-show-settings { display:none; }
+		
+		.vidtok-tool-panel-device { width:380px; height:36px; float:left; }
+			.vidtok-tool-panel-device img { width:36px; height:36px; margin-right:5px;  float:left; }
+			.vidtok-tool-panel-device p { margin:0; text-transform:uppercase; font-size:12px;  float:left; width:330px; margin-top:9px;}
+
+		.vidtok-settings-button { position:absolute; margin-top:139px; margin-left:278px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Gritter
+/*---------------------------*/
+
+	#gritter-notice-wrapper{position:fixed;bottom:90px; left:20px;width:301px;z-index:9999}
+	#gritter-notice-wrapper.top-left{left:20px;right:auto}
+	#gritter-notice-wrapper.bottom-right{top:auto;left:auto;bottom:20px;right:20px}
+	#gritter-notice-wrapper.bottom-left{top:auto;right:auto;bottom:20px;left:20px}
+	
+	#gritter-notice-wrapper.center { left:auto; right:auto; }
+	
+	.gritter-item-wrapper{position:relative; margin:0 0 10px}
+	.gritter-top{background:url(../images/gritter-inverted.png) no-repeat left -30px;height:10px}
+		.hover .gritter-top{background-position:right -30px}
+	.gritter-bottom{background:url(../images/gritter-inverted.png) no-repeat left bottom;height:8px;margin:0}
+		.hover .gritter-bottom{background-position:bottom right}
+	.gritter-item{display:block;background:url(../images/gritter-inverted.png) no-repeat left -40px;color:#000;font-size:13px; padding:2px 11px 8px}
+		.hover .gritter-item{background-position:right -40px}
+		.gritter-item p{margin:0;padding:0}
+	.gritter-close{position:absolute;top:5px;left:3px;background:url(../images/gritter-inverted.png) no-repeat left top;cursor:pointer;width:30px;height:30px}
+	.gritter-title{font-size:16px;font-weight:bold;display:block; padding:0 0 7px}
+	.gritter-image{width:48px;height:48px;float:left}
+	.gritter-with-image,.gritter-without-image{padding:0 0 5px}
+	.gritter-with-image{width:220px;float:right}
+

@@ -1,0 +1,68 @@
+/*
+	Vidtok Video Chat Plugin created by Blacc Spot Media, Inc.
+	Copyright 2012 All Rights Reserved.
+	Author: the Blacc Spot Media team
+	www.blaccspot.com	
+
+
+	CSS Style Infomation
+	Colors
+		Color			: #HEX;
+		CYAN			: #098CC2;
+
+/*---------------------------*/
+
+
+
+
+/*  VIDTOK VIDEO
+/*---------------------------*/
+/*IMPORTANT - override default*/
+	
+	.vidtok-w { width:1020px; }
+	
+	
+	
+
+/*  RECORDER 
+/*---------------------------*/
+
+	.vidtok-recorder-video-h { width:560px; height:400px;padding:4px; margin:5px; float:left; margin-right:10px; border:1px #DDD solid; background-color:#FFF; }
+		#vidtok-publisher img { display:block; margin:auto; }
+		
+	.vidtok-recorder-video-share-h { width:640px; height:480px;padding:4px; margin:5px; margin:auto; border:1px #DDD solid; background-color:#FFF; }
+	
+
+
+/*  ARCHIVE LIST 
+/*---------------------------*/
+
+	.vidtok-archive-list-w { width:425px; height:405px; padding:5px; float:left; overflow-x:hidden; }
+	
+	.vidtok-archive-list-h { width:388px; height:24px; padding:5px; float:left; border:1px #DDD solid; margin-bottom:10px; background-color:#FFF; }
+		.vidtok-archive-list-h img { width:18px; height:18px; float:left; margin-right:10px; margin-top:3px; }
+	
+	.vidtok-archive-list-c { }
+		.vidtok-archive-list-c p { margin:0; float:left; margin-top:3px; }
+		
+	.vidtok-archive-share-h { float:right; width:60px; height:24px; }
+		.vidtok-archive-share-h img { margin-left:3px; margin-right:3px; width:24px; height:24px; margin-top:0px; }	
+
+
+
+/*  DELETE
+/*---------------------------*/
+	
+	.vidtok-show-delete { display:none; }
+
+	.vidtok-delete { width:170px; float:right; margin-top:12px; }
+		.vidtok-delete img { width:22px; height:22px; margin-right:5px; float:left; }
+		.vidtok-delete p { float:left; margin:0; width:140px; margin-top:3px; }
+
+
+
+
+
+
+
+	

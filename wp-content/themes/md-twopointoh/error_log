@@ -1,0 +1,1 @@
+[15-Jul-2010 09:58:18] PHP Fatal error:  Call to undefined function  get_header() in /home/mutual/public_html/wp-content/themes/md-twopointoh/index.php on line 16

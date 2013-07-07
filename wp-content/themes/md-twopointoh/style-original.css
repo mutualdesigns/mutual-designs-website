@@ -1,0 +1,752 @@
+/*
+Theme Name: Mutual Designs TwoPointOh
+Theme URI: http://mutual-designs.com/
+Description: The 2010 default for Mutual Designs.
+Author: Mike and Jessica Griffiths
+Version: 2.0
+*/
+
+
+/* Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img { border: none; }
+
+
+
+/* = Basic Structure
+-------------------------------------------------------------- */
+body {
+	text-align:center;
+	color:#000;
+	background:#fff;
+}
+
+
+#main-nav, #wrapper {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.clear {
+	float:none;
+	clear:both;
+}
+
+/* =BlackBar
+-------------------------------------------------------------- */
+
+#blackbar {
+	background-color:#000;
+	height:30px;
+	width:100%;
+	-moz-box-shadow: 0 5px 5px #505050; /* For shadow effect to work in supported versions of Mozilla */
+	-webkit-box-shadow: 0 5px 7px #505050; /* For shadow effect to work in supported versions of Safari */
+}
+
+.menu-header ul.menu li a, .menu-header ul.menu li, .login {
+	list-style:none;
+	text-transform:uppercase;
+	display:inline-block;
+	float:left;
+}
+
+.menu-header {
+	float:right;
+}
+
+.menu-header ul.menu li, .login, .login a {
+	font-size: 12px;
+	margin:6px 0;
+	padding:2px 5px 2px 7px;
+	height:12px;
+	border-left:#DA7D82 solid 1px;
+}
+
+.menu-header ul.menu li a, .login, .login a {
+	color:#FFF;
+}
+	
+.menu-header ul.menu .borderless, .menu-footer ul.menu .borderless, .borderless, .borderless a {
+	border:none;
+}
+
+.menu-header ul.menu li a:hover, .login a:hover {
+	border-bottom:none;
+	color:#999;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#header {
+	height:85px;
+	margin-top:20px;
+}
+
+/* =GreyBox
+-------------------------------------------------------------- */
+
+.greybox {
+	background-color:#636363;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
+	color:#fff;
+}
+
+div.videobox {
+	margin:20px 0 0 20px;
+	float:left;
+	text-align:right;
+}
+
+div.videobox div {
+	border:#DA7D82 solid 2px;
+	margin-bottom:5px;
+	width:232px;
+	height:164px;
+}
+
+.whoarewe {
+	background:url(images/homepage/who-are-we.gif) no-repeat;
+	height:25px;
+	width:151px;
+	display:inline-block;
+}
+
+.whatdowedo {
+	background:url(images/homepage/what-do-we-do.gif) no-repeat;
+	height:25px;
+	width:197px;
+	display:inline-block;
+}
+
+a.startyourdesign {
+	background:url(images/homepage/start-design-off.gif) no-repeat;
+	display:block;
+	height:133px;
+	width:268px;
+}
+
+a:hover.startyourdesign {
+	background:url(images/homepage/start-design-on.gif) no-repeat;
+	display:block;
+	height:133px;
+	width:268px;
+	border-bottom:none;
+}
+
+.greybox img.screenshot {
+	margin:20px;
+}
+
+div.thumbnail {
+	margin:25px 17px 0px 17px;
+	float:left;
+	width:100px;
+}
+
+div.thumbnail p {
+	text-align:center;
+	width:100px;
+	line-height:15px;
+}
+
+div.thumbnail div.greybox {
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px; 
+	height:140px;
+}
+
+.greybox img.thumbnail {
+	margin:5px;
+	vertical-align:middle;
+}
+
+.greybox p {
+	line-height:14px;
+}
+
+.about p {
+	margin-bottom:30px;
+}
+
+.greybox ul {
+	width:155px;
+	color:#DA7D82;
+	margin:20px 15px 10px 35px;
+	font-size:13px;
+	list-style:disc;
+}
+
+.greybox ul li span {
+	color:#fff;
+}
+
+.pdf {
+	 background:url(images/contact/pdf-icon.jpg) left center no-repeat;
+	 background-color:#636363;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
+	color:#fff;
+	width:225px; 
+	height:135px; 
+	padding:10px 20px 10px 105px; 
+	float:left;
+}
+
+.steps {
+	width:225px;
+	height:85px;
+	background-image:url(images/about/about-sprite.jpg);
+	display:block;
+}
+
+.step1 {
+	background-position:0 0;
+}
+
+.step2 {
+	background-position:0 -85px;
+}
+
+.step3 {
+	background-position:0 -170px;
+}
+
+.step4 {
+	background-position:0 -255px;
+}
+
+.facebook {
+	background-position:0 -340px;
+}
+
+.twitter {
+	background-position:0 -425px;
+}
+
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+div.problem-solution {
+	width:425px;
+	float:right;
+	margin-left:25px;
+}
+
+div.problem-solution p {
+	line-height:15px;
+}
+
+span.pink {
+	color:#DA7D82;
+}
+
+div.services {
+	width:370px;
+	float:left;
+	margin-right:20px;
+}
+
+div.webdesign {
+	background:url(images/services/design.jpg) no-repeat top left;
+}
+
+div.webdesign h2 {
+	padding-left:60px;
+}
+
+div.logodesign {
+	background:url(images/services/logos.jpg) no-repeat top left;
+}
+
+div.logodesign h2, div.maintenance h2 {
+	padding-left:50px;
+}
+
+div.university {
+	background:url(images/services/education.jpg) no-repeat top left;
+}
+
+div.university h2 {
+	padding-left:70px;
+}
+
+div.maintenance {
+	background:url(images/services/maintenance.jpg) no-repeat top left;
+}
+
+/*--Contact Forms--*/
+.startproject {
+	width:430px;
+	float:right;
+}
+
+.askanything {
+	width:370px;
+	float:left;
+	margin-top:30px;
+}
+
+.startproject p label {
+	color:#DA7D82;
+	font-size:16px;
+	float:left;
+	width:145px;
+	text-align:right;
+	padding:8px 5px 0 0;
+}
+
+.askanything p label {
+	color:#DA7D82;
+	font-size:16px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:8px 5px 0 0;
+}
+
+.startproject p input.text {
+	background:#636363;
+	border-bottom:2px #DA7D82 solid;
+	width:265px;
+	height:15px;
+	color:#fff;
+	font-size:13px;
+	padding:5px;
+}
+
+.askanything p input.text {
+	background:#636363;
+	border-bottom:2px #DA7D82 solid;
+	width:225px;
+	height:15px;
+	color:#fff;
+	font-size:13px;
+	padding:5px;
+}
+
+.startproject p input.checkbox {
+	background:#636363;
+	border:2px #DA7D82 solid;
+	width:10px;
+	height:10px;
+	
+}
+
+.startproject span.wpcf7-list-item-label {
+	color:#DA7D82;
+	font-size:14px;
+	padding:8px 10px 0 0;
+	
+}
+
+.startproject p select {
+	background:#636363;
+	border-bottom:2px #DA7D82 solid;
+	width:280px;
+	height:30px;
+	color:#fff;
+	font-size:13px;
+	padding:5px;
+}
+
+
+/*.startproject p input.upload {
+	background:#636363;
+	border-bottom:2px #DA7D82 solid;
+	width:275px;
+	height:30px;
+}*/
+
+.askanything p textarea.textarea {
+	width:225px;
+	background-color:#636363;
+	border:2px solid #DA7D82;
+	color:#fff;
+	font-size:13px;
+	padding:5px;
+}
+
+.startproject span.submit input, .askanything span.submit input {
+	margin-left: 145px;
+	padding:10px;
+	background-color:#DA7D82;
+	font-size:16px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.askanything span.submit input {
+	margin-left:100px;
+}
+
+.wpcf7-not-valid-tip {
+	color:#DA7D82;
+}
+
+.wpcf7-response-output {
+	margin: 10px 40px;
+	text-align:right;
+	font-family:"Times New Roman", Times, serif;
+	font-size:35px;
+}
+	
+
+/* Images
+-------------------------------------------------------------- */
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+p img {
+	padding: 0;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	text-align:left;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+
+
+/* =Comments
+-------------------------------------------------------------- */
+#comments {
+	clear: both;
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer {
+	text-align:center;
+	font-size:12px;
+	list-style:none;
+}
+
+.menu-footer ul.menu li {
+	font-size:12px;
+	margin:8px 0;
+	padding:0 5px 0 5px;
+	height:12px;
+	border-left:#636363 solid 1px;
+	margin-bottom:15px;
+	display:inline;
+	text-transform:uppercase;
+}
+
+.menu-footer ul.menu li a {
+	color:#000;
+}
+
+.menu-footer {
+	margin-bottom:20px;
+}
+
+.menu-footer ul.menu .pink a {
+	color:#DA7D82;
+}
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+.widget-area ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+#wp_tag_cloud div {
+	line-height: 1.6em;
+}
+#wp-calendar {
+	width:100%;
+}
+#wp-calendar caption {
+	font-weight: bold;
+	color: #222;
+	text-align: left;
+	font-size:14px;
+	padding-bottom: 4px;
+}
+#wp-calendar thead {
+	font-size:11px;
+}
+#wp-calendar thead th {
+}
+#wp-calendar tbody {
+	color: #aaa;
+}
+#wp-calendar tbody td {
+	padding: 3px 0 2px;
+	background: #f5f5f5;
+	border:1px solid #fff;
+	text-align: center;
+}
+#wp-calendar tbody .pad {
+	background: none;
+}
+#wp-calendar tfoot #next {
+	text-align: right;
+}
+.widget_rss a.rsswidget {
+	color: #000;
+}
+.widget_rss a.rsswidget:hover {
+	color: #FF4B33;
+}
+.widget_rss .widget-title img {
+	height: 11px;
+	width: 11px;
+}
+
+/* Mobile Safari ( iPad, iPhone and iPod Touch )
+-------------------------------------------------------------- */
+
+pre {
+	-webkit-text-size-adjust: 140%;
+}
+code {
+	-webkit-text-size-adjust: 160%;
+}
+#access,
+.entry-meta,
+.entry-utility,
+.navigation,
+.widget-area {
+	-webkit-text-size-adjust: 120%;
+}
+#site-description {
+	-webkit-text-size-adjust: none;
+}
+
+/* =Fonts
+-------------------------------------------------------------- */
+body,
+input,
+textarea,
+.page-title span,
+.pingback a.url {
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+code {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+/* =Global Elements
+-------------------------------------------------------------- */
+
+/* Main global 'theme' and typographic styles  */
+
+hr {
+	background-image:url(images/homepage/md-repeat.gif);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border:none;
+	height: 10px;
+	margin:10px auto;
+	width:87%;
+}
+
+*hr {
+	color:#CCC;
+	height:1px;
+	width:100%;
+}
+
+a {
+	text-decoration:none;
+	color:#DA7D82;
+}
+
+a:hover {
+	border-bottom:dashed #DA7D82 1px;
+}
+
+a:hover.logo {
+	border-bottom:none;
+}
+
+p {
+	padding:10px 0 10px 0;
+	line-height:22px;
+	font-size:13px;
+}
+
+h1 {
+	display:none;
+}
+
+h2 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:35px;
+}
+
+h3 {
+}
+
+h4 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px;
+	text-align:right;
+	display:inline;
+}
+	
+
+/* =Print Style
+-------------------------------------------------------------- */
+
+@media print {
+	body {
+		background:none !important;
+	}
+	#wrapper {
+		float: none !important;
+		clear: both !important;
+		display: block !important;
+		position: relative !important;
+	}
+	#header {
+		border-bottom: 2pt solid #000;
+		padding-bottom: 18pt;
+	}
+	#colophon {
+		border-top: 2pt solid #000;
+	}
+	#site-title,
+	#site-description {
+		float: none;
+		margin: 0;
+		padding:0;
+		line-height: 1.4em;
+	}
+	#site-title {
+		font-size: 13pt;
+	}
+	.entry-content {
+		font-size: 14pt;
+		line-height: 1.6em;
+	}
+	.entry-title {
+		font-size: 21pt;
+	}
+	#access,
+	#branding img,
+	#respond,
+	.comment-edit-link,
+	.edit-link,
+	.navigation,
+	.page-link,
+	.widget-area {
+		display: none !important;
+	}
+	#container,
+	#header,
+	#footer {
+		width: 100%;
+		margin: 0;
+	}
+	#content,
+	.one-column #content {
+		width: 100%;
+		margin: 24pt 0 0;
+	}
+	.wp-caption p {
+		font-size: 11pt;
+	}
+	#site-info,
+	#site-generator {
+		float: none;
+		width: auto;
+	}
+	#colophon {
+		width: auto;
+	}
+	img#wpstats {
+		display:none
+	}
+	#site-generator a {
+		padding: 0;
+	margin: 0;
+	}
+	#entry-author-info {
+		border: 1px solid #e7e7e7;
+	}
+	#main {
+		display:inline;
+	}
+	.home .sticky {
+		border: none;
+	}
+}

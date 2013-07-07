@@ -1,0 +1,389 @@
+/*
+Theme Name: Mutual Designs
+Theme URI: http://www.mutual-designs.com/
+Description: The default WordPress theme designed solely for Mutual Designs.
+Version: 2.0
+Author: Mike Griffiths and Jessica Price
+
+
+	Mutual Designs v2.0
+	 http://www.mutual-designs.com/
+
+	This theme was designed and built by Mike Griffiths and Jessica Price.
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Begin Structure */
+body{
+	text-align: center;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url(images/backgrounds/template/mutual-designs-back.jpg);
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	}
+
+#wrapper{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	}
+
+#uppermenu {
+	height: 31px;
+	padding: 6px 0 0 0;
+	width: 100%;
+}
+	
+#uppermenu ul li, #uppermenu ul li a {
+	color:#FFF;
+	list-style:none;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+#uppermenu ul li.current_page_item a {
+	color:#CCC;
+}
+
+ul#nav li {
+	border-left:solid 1px #741112;
+	float:right;
+	text-align:right;
+	padding:0 5px 0 5px;
+}
+
+#header {
+	background-image: url(images/backgrounds/template/mutual-designs.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 95px;
+	width: 100%;
+	}
+	
+#content {
+	margin:20px;
+	}
+
+#content ul {
+	margin-left:30px;
+}
+
+#footer {
+	width: 800px;
+	clear: both;
+	}
+
+#footer ul#nav {
+	font-size:10px;
+	list-style:none;
+	text-transform:uppercase;
+	padding:20px 0 20px 0;
+	margin-right:210px;
+}
+
+#footer li.current_page_item a {
+	color:#DA7D82;
+}
+
+#footer p {
+	text-align:center;
+	font-size:9px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {
+	
+	}
+
+
+h2 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:43px;
+	color: #000000;
+	font-weight: normal;	
+}
+
+
+
+h3 {
+	
+	}
+
+h3.comments {
+	
+	}
+/* End Headers */
+
+
+/* Begin Various Tags & Classes */
+
+.pink, a.pink {
+	color: #DA7D82;
+}
+
+p  {
+	text-align:justify;
+	line-height: 24.5px;
+	font-weight: normal;
+	}
+
+a {
+	text-decoration: none;
+	color:#000;
+	}
+	
+a:hover {
+	text-decoration: underline;
+}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+	
+.screen-reader-text {
+     position: absolute;
+     left: -1000em;
+}
+
+hr {
+	background-image: url(images/backgrounds/template/mutual-designs-sep.gif);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border:none;
+	height: 10px;
+	margin:10px 0 10px 0;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform {
+	margin: 5px 10px 0 0;
+	}
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 10px;
+	padding: 5px 5px 10px 10px;
+	list-style: none;
+
+	}
+.commentlist li ul li { 
+	margin-right: -5px;
+	margin-left: 10px;
+}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+.children { padding: 0; }
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+
+
+

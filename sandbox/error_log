@@ -1,0 +1,2 @@
+[30-Dec-2010 21:28:28] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/mutual/public_html/sandbox/nafhaoutput.php on line 20
+[30-Dec-2010 21:28:39] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/mutual/public_html/sandbox/nafhaoutput.php on line 20

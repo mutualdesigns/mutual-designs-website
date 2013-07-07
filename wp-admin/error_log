@@ -1,0 +1,121 @@
+[03-Jul-2010 02:51:22] PHP Parse error:  syntax error, unexpected $end in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 68
+[03-Jul-2010 02:53:56] PHP Parse error:  syntax error, unexpected $end in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 68
+[03-Jul-2010 03:00:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:02:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:03:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:04:14] PHP Parse error:  syntax error, unexpected $end in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 102
+[03-Jul-2010 03:04:19] PHP Parse error:  syntax error, unexpected $end in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 102
+[03-Jul-2010 03:05:59] PHP Fatal error:  Cannot redeclare admin_init() (previously declared in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:77) in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 101
+[03-Jul-2010 03:06:22] PHP Fatal error:  Cannot redeclare meta_options() (previously declared in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:81) in /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php on line 106
+[03-Jul-2010 03:09:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:10:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:11:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:11:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/classes.php on line 1601
+[03-Jul-2010 03:12:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:72) in /home/mutual/public_html/wp-includes/pluggable.php on line 890
+[03-Jul-2010 03:13:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:70) in /home/mutual/public_html/wp-includes/pluggable.php on line 890
+[03-Jul-2010 03:14:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:70) in /home/mutual/public_html/wp-includes/pluggable.php on line 890
+[03-Jul-2010 03:15:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mutual/public_html/wp-content/themes/mutualdesigns/functions.php:40) in /home/mutual/public_html/wp-includes/pluggable.php on line 890
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_xprofile_data' doesn't exist for query SELECT value FROM mu_bp_xprofile_data WHERE field_id = 1 AND user_id = 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_globals, do_action, call_user_func_array, bp_core_setup_globals, bp_core_get_user_displayname, xprofile_get_field_data, BP_XProfile_ProfileData->get_value_byid
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_xprofile_fields' doesn't exist for query SELECT * FROM mu_bp_xprofile_fields WHERE id = 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_globals, do_action, call_user_func_array, bp_core_setup_globals, bp_core_get_user_displayname, xprofile_set_field_data, BP_XProfile_Field->bp_xprofile_field, BP_XProfile_Field->populate
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_xprofile_fields' doesn't exist for query SELECT id FROM mu_bp_xprofile_fields WHERE id = 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_globals, do_action, call_user_func_array, bp_core_setup_globals, bp_core_get_user_displayname, xprofile_set_field_data, BP_XProfile_ProfileData->save, BP_XProfile_ProfileData->is_valid_field
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_user_blogs' doesn't exist for query SELECT COUNT(DISTINCT b.blog_id) FROM mu_bp_user_blogs b LEFT JOIN mu_blogs wb ON b.blog_id = wb.blog_id WHERE wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND user_id = 1 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_nav, do_action, call_user_func_array, bp_blogs_setup_nav, bp_blogs_total_blogs_for_user, BP_Blogs_Blog->total_blog_count_for_user
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_groups_members' doesn't exist for query SELECT COUNT(DISTINCT m.group_id) FROM mu_bp_groups_members m, mu_bp_groups g WHERE m.group_id = g.id AND m.user_id = 1 AND m.is_confirmed = 1 AND m.is_banned = 0 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_nav, do_action, call_user_func_array, groups_setup_nav, groups_total_groups_for_user, BP_Groups_Member->total_group_count
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_messages_recipients' doesn't exist for query SELECT unread_count FROM mu_bp_messages_recipients WHERE user_id = 1 AND is_deleted = 0 AND sender_only = 0 made by require_once, require_once, require_once, require_once, do_action, call_user_func_array, bp_loaded, do_action, call_user_func_array, bp_setup_nav, do_action, call_user_func_array, messages_setup_nav, messages_get_unread_count, BP_Messages_Thread->get_inbox_count
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_xprofile_groups' doesn't exist for query SELECT id FROM mu_bp_xprofile_groups WHERE id = 1 made by require_once, require, do_action, call_user_func_array, xprofile_add_admin_menu, xprofile_install
+[03-Jul-2010 03:43:33] WordPress database error Table 'mutual_network.mu_bp_xprofile_fields' doesn't exist for query SELECT id FROM mu_bp_xprofile_fields WHERE id = 1 made by require_once, require, do_action, call_user_func_array, xprofile_add_admin_menu, xprofile_install
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_users' already exists for query CREATE TABLE mu_users (
+  ID bigint(20) unsigned NOT NULL auto_increment,
+  user_login varchar(60) NOT NULL default '',
+  user_pass varchar(64) NOT NULL default '',
+  user_nicename varchar(50) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  user_url varchar(100) NOT NULL default '',
+  user_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  user_activation_key varchar(60) NOT NULL default '',
+  user_status int(11) NOT NULL default '0',
+  display_name varchar(250) NOT NULL default '',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  KEY user_login_key (user_login),
+  KEY user_nicename (user_nicename)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_usermeta' already exists for query 
+CREATE TABLE mu_usermeta (
+  umeta_id bigint(20) unsigned NOT NULL auto_increment,
+  user_id bigint(20) unsigned NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (umeta_id),
+  KEY user_id (user_id),
+  KEY meta_key (meta_key)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_blogs' already exists for query 
+CREATE TABLE mu_blogs (
+  blog_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  public tinyint(2) NOT NULL default '1',
+  archived enum('0','1') NOT NULL default '0',
+  mature tinyint(2) NOT NULL default '0',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  lang_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (blog_id),
+  KEY domain (domain(50),path(5)),
+  KEY lang_id (lang_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_blog_versions' already exists for query 
+CREATE TABLE mu_blog_versions (
+  blog_id bigint(20) NOT NULL default '0',
+  db_version varchar(20) NOT NULL default '',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (blog_id),
+  KEY db_version (db_version)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_registration_log' already exists for query 
+CREATE TABLE mu_registration_log (
+  ID bigint(20) NOT NULL auto_increment,
+  email varchar(255) NOT NULL default '',
+  IP varchar(30) NOT NULL default '',
+  blog_id bigint(20) NOT NULL default '0',
+  date_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (ID),
+  KEY IP (IP)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_site' already exists for query 
+CREATE TABLE mu_site (
+  id bigint(20) NOT NULL auto_increment,
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  PRIMARY KEY  (id),
+  KEY domain (domain,path)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_sitemeta' already exists for query 
+CREATE TABLE mu_sitemeta (
+  meta_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (meta_id),
+  KEY meta_key (meta_key),
+  KEY site_id (site_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[31-Jan-2012 04:48:10] WordPress database error Table 'mu_signups' already exists for query 
+CREATE TABLE mu_signups (
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  title longtext NOT NULL,
+  user_login varchar(60) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  activated datetime NOT NULL default '0000-00-00 00:00:00',
+  active tinyint(1) NOT NULL default '0',
+  activation_key varchar(50) NOT NULL default '',
+  meta longtext,
+  KEY activation_key (activation_key),
+  KEY domain (domain)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta

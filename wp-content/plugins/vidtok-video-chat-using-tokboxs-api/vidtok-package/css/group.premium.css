@@ -1,0 +1,53 @@
+/*
+	Vidtok Video Chat Plugin created by Blacc Spot Media, Inc.
+	Copyright 2012 All Rights Reserved.
+	Author: the Blacc Spot Media team
+	www.blaccspot.com	
+
+
+	CSS Style Infomation
+	Colors
+		Color			: #HEX;
+		CYAN			: #098CC2;
+
+/*---------------------------*/
+ 
+
+
+
+
+/*  VIDEO HOLDER 
+/*---------------------------*/
+	
+	.vidtok-video-h { margin-top:100px; }
+
+
+/* GROUP CONTROLS 
+/*---------------------------*/
+
+	.vidtok-group-controls-w { width:468px; height:43px; padding:10px; float:left; margin:5px; background-color:#FFF; border:1px #DDD solid; }
+	
+
+
+
+/* SUBSCRIBERS  
+/*---------------------------*/
+	
+	.vidtok-subsciber-h { float:right; width:500px; height:570px; overflow:hidden;  }
+	
+	.vidtok-suscriber-small { width:228px; height:168px; float:left; background-color:#FFF; border:1px #DDD solid; padding:5px; margin:5px; }
+		.vidtok-suscriber-small img { display:block; margin:auto; width:144px; height:130px; margin-top:20px; }
+	 
+	.vidtok-sub-h { width:250px; height:190px; float:left; }  
+
+
+
+
+/*  RECORDING CONTROLS
+/*---------------------------*/
+	
+	.vidtok-controls-w { width:478px; height:55px; padding:5px; margin:5px; border:1px #ddd dashed; float:left; display:none; }
+		.vidtok-controls-w p { margin:0; float:left; width:473px; text-transform:uppercase; margin-left:5px; text-align:center; }
+
+	.vidtok-controls-h { margin-left:110px; }
+

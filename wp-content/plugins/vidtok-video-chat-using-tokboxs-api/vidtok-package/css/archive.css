@@ -1,0 +1,42 @@
+/*
+	Vidtok Video Chat Plugin created by Blacc Spot Media, Inc.
+	Copyright 2012 All Rights Reserved.
+	Author: the Blacc Spot Media team
+	www.blaccspot.com	
+
+
+	CSS Style Infomation
+	Colors
+		Color			: #HEX;
+		CYAN			: #098CC2;
+
+/*---------------------------*/
+
+
+
+
+
+/*  ARCHIVE MANAGEMENT
+/*---------------------------*/
+	
+	.vidtok-archive-management { width:170px; float:right; margin-top:12px; }
+		.vidtok-archive-management img { width:24px; height:24px; margin-right:5px; float:left; }
+		.vidtok-archive-management p { float:left; margin:0; width:130px; margin-top:3px; }
+		.vidtok-archive-management p a { text-decoration:none; color:#098CC2;}
+		
+
+
+/*  RECORDER 
+/*---------------------------*/
+
+	.vidtok-recorder-video-h { width:640px; height:480px;padding:4px; margin:5px;  margin:auto; border:1px #DDD solid; background-color:#FFF; }
+	
+
+
+/*  ARCHIVE TITLE
+/*---------------------------*/
+
+	.vidtok-archive-title { width:640px; margin:auto; }
+		.vidtok-archive-title input { width:630px; }
+		.vidtok-archive-title p { width:630px; margin:0; }  
+		
